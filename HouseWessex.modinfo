@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e672add5-ff23-44b9-a690-065e2ed6129f" version="1">
+  <Properties>
+    <Name>House of Wessex</Name>
+    <Description>Ealhswith or Ealswitha was the wife of King Alfred the Great. Her father was a Mercian nobleman, Æthelred Mucel, Ealdorman of the Gaini, which is thought to be an old Mercian tribal group.
+
+In 868 Alfred had married Ealhswith, a descendant of the Mercian royal house, probably as part of a long-term West Saxon plan to bring the royal houses of the two provinces closer together. They had two sons and three daughters, who survived to adulthood.</Description>
+    <Created>1586819788</Created>
+    <Teaser>A Kingdom in southwest England known as Wessex, from the 6th century under Cerdic of Wessex until, unification of the Kingdoms</Teaser>
+    <Authors>Fivvr</Authors>
+    <SpecialThanks>Braxxonsoft &amp; Fivvr</SpecialThanks>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="NewAction">
+      <File>Core/HouseWessex_Config.sql</File>
+      <File>Core/HouseWessex_Buildings.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="NewAction">
+      <File>Core/HouseWessex_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="NewAction">
+      <File>Core/HouseWessex_GameText.xml</File>
+    </UpdateText>
+    <UpdateArt id="NewAction">
+      <File>House of Wessex.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File>Core/HouseWessex_GameDefines.sql</File>
+      <File>Core/HouseWessex_Buildings.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="NewAction">
+      <File>Core/HouseWessex_GameText.xml</File>
+    </UpdateText>
+    <UpdateIcons id="NewAction">
+      <File>Core/HouseWessex_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="NewAction">
+      <File>House of Wessex.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>Braxon.xml</File>
+    <File>cooker.log</File>
+    <File>Core/HouseWessex_Buildings.xml</File>
+    <File>Core/HouseWessex_Config.sql</File>
+    <File>Core/HouseWessex_GameDefines.sql</File>
+    <File>Core/HouseWessex_GameText.xml</File>
+    <File>Core/HouseWessex_Icons.xml</File>
+    <File>House of Wessex.dep</File>
+    <File>Platforms/Windows/BLPs/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderBackgrounds.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/LEADER_BRAX_LEADER_CUSTOM.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Textures/ART_LEADER_LEADER_CUSTOM.dds</File>
+    <File>Textures/ART_LEADER_LEADER_CUSTOM.tex</File>
+    <File>Textures/FALLBACK_NEUTRAL_LEADER_CUSTOM.dds</File>
+    <File>Textures/FALLBACK_NEUTRAL_LEADER_CUSTOM.tex</File>
+    <File>Textures/ICON_CIV_CUSTOM_256.dds</File>
+    <File>Textures/ICON_CIV_CUSTOM_256.tex</File>
+    <File>Textures/ICON_CIV_CUSTOM_32.dds</File>
+    <File>Textures/ICON_CIV_CUSTOM_32.tex</File>
+    <File>Textures/ICON_CIV_CUSTOM_45.dds</File>
+    <File>Textures/ICON_CIV_CUSTOM_45.tex</File>
+    <File>Textures/ICON_CIV_CUSTOM_50.dds</File>
+    <File>Textures/ICON_CIV_CUSTOM_50.tex</File>
+    <File>Textures/ICON_CIV_CUSTOM_55.dds</File>
+    <File>Textures/ICON_CIV_CUSTOM_55.tex</File>
+    <File>Textures/ICON_CIV_CUSTOM_64.dds</File>
+    <File>Textures/ICON_CIV_CUSTOM_64.tex</File>
+    <File>Textures/ICON_CIV_CUSTOM_80.dds</File>
+    <File>Textures/ICON_CIV_CUSTOM_80.tex</File>
+    <File>Textures/ICON_LEADER_CUSTOM_256.dds</File>
+    <File>Textures/ICON_LEADER_CUSTOM_256.tex</File>
+    <File>Textures/ICON_LEADER_CUSTOM_32.dds</File>
+    <File>Textures/ICON_LEADER_CUSTOM_32.tex</File>
+    <File>Textures/ICON_LEADER_CUSTOM_45.dds</File>
+    <File>Textures/ICON_LEADER_CUSTOM_45.tex</File>
+    <File>Textures/ICON_LEADER_CUSTOM_50.dds</File>
+    <File>Textures/ICON_LEADER_CUSTOM_50.tex</File>
+    <File>Textures/ICON_LEADER_CUSTOM_55.dds</File>
+    <File>Textures/ICON_LEADER_CUSTOM_55.tex</File>
+    <File>Textures/ICON_LEADER_CUSTOM_64.dds</File>
+    <File>Textures/ICON_LEADER_CUSTOM_64.tex</File>
+    <File>Textures/ICON_LEADER_CUSTOM_80.dds</File>
+    <File>Textures/ICON_LEADER_CUSTOM_80.tex</File>
+    <File>Textures/LEADER_LEADER_CUSTOM_BACKGROUND.dds</File>
+    <File>Textures/LEADER_LEADER_CUSTOM_BACKGROUND.tex</File>
+    <File>Textures/LEADER_LEADER_CUSTOM_NEUTRAL.dds</File>
+    <File>Textures/LEADER_LEADER_CUSTOM_NEUTRAL.tex</File>
+    <File>XLPs/Icons.xlp</File>
+    <File>XLPs/LeaderBackgrounds.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/Leader_LEADER_CUSTOM.xlp</File>
+    <File>XLPs/UILeaders.xlp</File>
+  </Files>
+</Mod>
